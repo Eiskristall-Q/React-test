@@ -8,8 +8,8 @@ steps:
       [
         'build',
         '-t',
-        'us-central1-docker.pkg.dev/psyched-magnet-312616/test1/aa',
+        'us-central1-docker.pkg.dev/psyched-magnet-312616/test1/test',
         '.',
       ]
 images:
-  - 'us-central1-docker.pkg.dev/psyched-magnet-312616/test1/aa'
+  - 'us-central1-docker.pkg.dev/psyched-magnet-312616/test1/test'
