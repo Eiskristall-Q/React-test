@@ -1,0 +1,15 @@
+# steps:
+#   - name: 'gcr.io/cloud-builders/docker'
+#     args: ['build', '-t', 'gcr.io/psyched-magnet-312616/ss', '.']
+# images: ['gcr.io/psyched-magnet-312616/ss']
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      [
+        'build',
+        '-t',
+        'us-central1-docker.pkg.dev/psyched-magnet-312616/test1/aa',
+        '.',
+      ]
+images:
+  - 'us-central1-docker.pkg.dev/psyched-magnet-312616/test1/aa'
